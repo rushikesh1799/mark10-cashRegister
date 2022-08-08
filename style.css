@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    background-color: #f3dec9;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding: 1rem 1rem;
+}
+
+/* Header css */
+h1 {
+    text-align: center;
+    color: #f55a5a;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 3rem;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    padding: 1rem 1rem;
+}
+
+.description {
+    padding: 1rem 1rem;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 1.2rem;
+}
+
+/* Main css */
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 2rem;
+    margin-top: 1.2rem;
+    font-size: 1.5rem;
+
+}
+
+.input-group {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    padding: 10px 15px;
+    width: 100%;
+    border: 1px solid #383838;
+    background: #1b1b1b;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+#bill-amount,
+#cash-given {
+    background-color: #00546b;
+    color: #FFFFFF;
+}
+
+/* table css */
+
+
+#check-button {
+    margin: auto;
+    margin-top: 1.2rem;
+    padding: 6px 12px;
+    border-radius: 10px;
+    font-size: larger
+}
+
+#error-message{
+    margin-top: 1.3rem;
+    /* padding: 1rem 1rem; */
+    text-align: center;
+    font-size: 1.3rem;
+    color: red;
+    font-weight: 1000;
+
+}
+
+.change-table {
+    width: 80%;
+    text-align: justify;
+    border-collapse: collapse;
+    margin: 2rem auto 5rem auto;
+    transition: 0.5s ease all;
+}
+
+.change-table caption {
+    margin: 1rem auto 2rem auto;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+#check-button:hover {
+    background-color: black;
+    color: white;
+
+}
+
+::placeholder {
+    color: #FFFFFF;
+}
+
+th,
+td {
+  border: 2px solid #00546b;
+  max-width: 10rem;
+  border-collapse: collapse;
+  padding: 10px;
+  font-size: 1.3rem;
+  font-weight: 1000;
+}
