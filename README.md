@@ -9,4 +9,4 @@ Tech Stack : HTML, CSS, Vanilla JS
 <img src="https://raw.githubusercontent.com/rushikesh1799/mark10-cashRegister/main/images/cashRegister.png" width="90%"/>
 </div>
 
-You can see Live project [here](https://www.google.com/)
+You can see Live project [here](https://cashregisterappwebspplication.netlify.app/)
