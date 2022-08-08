@@ -9,6 +9,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    min-width: 100vw;
+}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -18,7 +22,7 @@ input::-webkit-inner-spin-button {
 .container {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     margin: auto;
     padding: 1rem 1rem;
 }
@@ -39,10 +43,11 @@ header {
 }
 
 .description {
-    padding: 1rem 1rem;
+    /* padding: 1rem 1rem; */
     text-align: center;
     font-size: 1.3rem;
     margin-top: 1.2rem;
+    margin: 1rem;
 }
 
 /* Main css */
@@ -50,7 +55,7 @@ header {
 main {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 65%;
     gap: 2rem;
     margin-top: 1.2rem;
     font-size: 1.5rem;
