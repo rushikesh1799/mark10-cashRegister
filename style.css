@@ -141,3 +141,9 @@ td {
   font-size: 1.3rem;
   font-weight: 1000;
 }
+
+@media screen and (max-width: 600px) {
+    body{
+        background-color: #00546b;
+    }
+}
