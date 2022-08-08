@@ -145,8 +145,13 @@ td {
 @media screen and (max-width: 600px) {
     html {
         font-size: 65%;
-      }
-    
+    }
+
+    body {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
     * {
         background-color: #f3dec9;
     }
