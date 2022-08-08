@@ -143,8 +143,12 @@ td {
 }
 
 @media screen and (max-width: 600px) {
+    html {
+        font-size: 65%;
+      }
+    
     * {
-        background-color: #00546b;
+        background-color: #f3dec9;
     }
 
     .input-group {
@@ -163,6 +167,8 @@ td {
     }
 
     .change-table {
-        width: 100%;
+        width: 50%;
+        margin: 1rem auto 2rem auto;
+        font-size: small;
     }
 }
