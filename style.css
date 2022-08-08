@@ -104,16 +104,15 @@ input {
 }
 
 .change-table {
-    width: 80%;
+    width: 50%;
     text-align: justify;
     border-collapse: collapse;
-    margin: 2rem auto 5rem auto;
-    transition: 0.5s ease all;
+    margin: auto;
 }
 
 .change-table caption {
-    margin: 1rem auto 2rem auto;
-    font-size: 1.3rem;
+    margin: 1rem auto;
+    font-size: x-large;
     font-weight: 500;
 }
 
@@ -135,12 +134,12 @@ input {
 th,
 td {
     border: 2px solid #00546b;
-    max-width: 10rem;
+    width: 0%;
     border-collapse: collapse;
-    padding: 10px;
-    font-size: 1.3rem;
-    font-weight: 1000;
+    padding: 0.4rem;
 }
+
+
 
 @media screen and (max-width: 600px) {
     html {
