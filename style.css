@@ -93,7 +93,7 @@ input {
     font-size: larger
 }
 
-#error-message{
+#error-message {
     margin-top: 1.3rem;
     /* padding: 1rem 1rem; */
     text-align: center;
@@ -134,16 +134,16 @@ input {
 
 th,
 td {
-  border: 2px solid #00546b;
-  max-width: 10rem;
-  border-collapse: collapse;
-  padding: 10px;
-  font-size: 1.3rem;
-  font-weight: 1000;
+    border: 2px solid #00546b;
+    max-width: 10rem;
+    border-collapse: collapse;
+    padding: 10px;
+    font-size: 1.3rem;
+    font-weight: 1000;
 }
 
 @media screen and (max-width: 600px) {
-    *{
+    * {
         background-color: #00546b;
     }
 
@@ -152,7 +152,17 @@ td {
         margin: 0 auto;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        align-self: flex-start;
+        justify-content: flex-start;
+        gap: 1rem;
+    }
+
+    label {
+        width: 100%;
+        text-align: left;
+    }
+
+    .change-table {
+        width: 100%;
     }
 }
