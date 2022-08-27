@@ -25,6 +25,7 @@ input::-webkit-inner-spin-button {
     width: 100%;
     margin: auto;
     padding: 1rem 1rem;
+    
 }
 
 /* Header css */
@@ -112,6 +113,7 @@ input {
     text-align: justify;
     border-collapse: collapse;
     margin: auto;
+    
 }
 
 .change-table caption {
@@ -143,6 +145,23 @@ td {
     padding: 0.4rem;
 }
 
+/* footer */
+
+.footer-text a {
+    text-decoration: none;
+    /* background-color: #00546c; */
+    border: 2px solid #ff5200;
+    padding: 3px;
+    border-radius: 5px;
+    color: #00546c;
+    /* height: 20px; */
+}
+
+.footer-text a:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid #FFFFFF;
+}
 
 
 @media screen and (max-width: 600px) {
