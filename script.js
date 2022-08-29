@@ -15,14 +15,14 @@ function validateBillAmountAndCashAmount() {
     var cash = Number(cashGiven.value);
     var bill = Number(billAmount.value);
 
-    // console.log(cash + 10);
-    // console.log(bill);
+    // console.log(cashGiven.value);
+    // console.log(billAmount.value);
 
     if (cash < 0 || bill < 0) {
         showErrorMessage(
             "Bill Amount and Cash given can not be negative, Please fill positive values."
         );
-    } else if (cash == 0 || bill == 0) {
+    } else if (cashGiven.value == "" || billAmount.value == "") {
         showErrorMessage("Please fill both the values correctly");
     } else if (bill > 0) {
         if (cash > bill) {
